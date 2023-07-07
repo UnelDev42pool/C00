@@ -6,7 +6,7 @@
 /*   By: edi-iori <edi-iori@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 15:55:39 by edi-iori          #+#    #+#             */
-/*   Updated: 2023/07/07 11:47:17 by edi-iori         ###   ########lyon.fr   */
+/*   Updated: 2023/07/07 11:51:50 by edi-iori         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ void	ft_print_comb2(void)
 				print(i);
 				write(1, &space, 1);
 				print(j);
-				if(!((i == 98) && (j == 99)))
+				if (!((i == 98) && (j == 99)))
 				{
 					write(1, &comma, 1);
 				}
@@ -79,8 +79,7 @@ void	ft_print_comb2(void)
 		i++;
 	}
 }
-
-int main()
-{
-	ft_print_comb2();
-}
+// int main()
+// {
+// 	ft_print_comb2();
+// }
