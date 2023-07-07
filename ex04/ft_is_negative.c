@@ -6,7 +6,7 @@
 /*   By: edi-iori <edi-iori@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/05 10:50:39 by edi-iori          #+#    #+#             */
-/*   Updated: 2023/07/05 11:58:35 by edi-iori         ###   ########lyon.fr   */
+/*   Updated: 2023/07/07 11:19:41 by edi-iori         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,12 @@
 
 void	ft_is_negative(int n)
 {
-	const int	n = 'N';
-	const int	p = 'P';
-
 	if (n < 0)
 	{
-		write(0, &n, 1);
+		write(0, 'N', 1);
 	}
 	else
 	{
-		write(0, &p, 1);
+		write(0, 'P', 1);
 	}
 }
